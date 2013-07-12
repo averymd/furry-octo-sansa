@@ -1,4 +1,4 @@
-furry-octo-sansa
+Furry Octo Sansa
 ================
 
-My linux configuration files.
+Some linux configuration files.
