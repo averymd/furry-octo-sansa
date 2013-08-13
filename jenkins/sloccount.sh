@@ -1,0 +1,1 @@
+sloccount --duplicates --wide --details . | fgrep -v build > sloccount.sc || :

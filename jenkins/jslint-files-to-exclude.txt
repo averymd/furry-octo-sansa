@@ -1,0 +1,1 @@
+**/jasmine*.js,**/jquery*.js,**/angular*.js,**/bootstrap*.js,**/build/**/*.js,**/libs/**/*.js,**/publish/public/js/*.js,**/site/js/plugins.js

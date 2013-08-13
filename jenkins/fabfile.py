@@ -7,6 +7,7 @@ env.user = 'root'
 def deploy_clean_jenkins():
   run('wget http://mirrors.jenkins-ci.org/war/latest/jenkins.war')
   run('cp jenkins.war /var/lib/tomcat7/webapps')
+  run('chmod -R 0777 /usr/share/tomcat7')
 
 def deploy_scripts():
 	return
