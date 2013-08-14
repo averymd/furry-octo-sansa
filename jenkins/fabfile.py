@@ -9,11 +9,8 @@ def deploy_clean_jenkins():
   run('cp jenkins.war /var/lib/tomcat7/webapps')
   run('chmod -R 0777 /usr/share/tomcat7')
 
-def deploy_scripts():
-	return
-
 def setup_server():
   run('apt-get update')
-  run('apt-get install -y tomcat7 default-jdk')
+  run('apt-get install -y tomcat7 default-jdk git')
   run('mkdir /var')
   run('/etc/init.d/tomcat7 start')
