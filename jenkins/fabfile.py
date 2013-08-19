@@ -1,5 +1,5 @@
 from __future__ import with_statement
-from fabric.api import settings, abort, run, cd, env
+from fabric.api import settings, abort, run, cd, env, put
 
 env.hosts = ['projects.irrsinn.net']
 env.user = 'root'
@@ -7,6 +7,8 @@ env.user = 'root'
 def apache_config():
   with cd('/etc/apache2/sites-available'):
     put('projects.irrsinn.net-vhost', 'projects.irrsinn.net')
+    put('default-vhost', 'default')
+    run('apache2ctl -k restart')
 
 def base_installs():
   run('apt-get update')
@@ -47,3 +49,10 @@ def tomcat_install():
   run('/etc/init.d/tomcat7 start')
 
 def varnish_config():
+  with cd('/etc/varnish'):
+    put('projects.irrsinn.net.vcl', 'projects.irrsinn.net.vcl', mode=0755)
+    put('default.vcl', 'default.vcl', mode=0755)
+  run('pkill varnishd', warn_only=True)
+  run('apache2ctl -k restart')
+  run('service varnish restart')
+  run('varnishd -f /etc/varnish/default.vcl -s malloc,256M -a :80')

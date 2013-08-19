@@ -1,12 +1,9 @@
-<VirtualHost *:80>
+<VirtualHost *:8088>
   ServerAdmin averymd@irrsinn.net
 
   ServerName projects.irrsinn.net
   DocumentRoot /var/www/projects.irrsinn.net
-  <Directory /var/www/projects.irrsinn.net>
-    Options FollowSymLinks
-    AllowOverride None
-  </Directory>
+
   <Directory /var/www/projects.irrsinn.net/git>
     Options Indexes FollowSymLinks MultiViews
     AllowOverride All
