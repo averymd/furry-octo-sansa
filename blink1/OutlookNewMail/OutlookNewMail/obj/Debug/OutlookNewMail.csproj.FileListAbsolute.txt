@@ -1,6 +1,0 @@
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\bin\Debug\OutlookNewMail.exe.config
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\bin\Debug\OutlookNewMail.exe
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\bin\Debug\OutlookNewMail.pdb
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\obj\Debug\OutlookNewMail.csprojResolveAssemblyReference.cache
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\obj\Debug\OutlookNewMail.exe
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\obj\Debug\OutlookNewMail.pdb

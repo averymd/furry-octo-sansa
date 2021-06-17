@@ -1,1 +1,0 @@
-find . -name '*.py'|egrep -v '^./tests/|^./build/'|xargs pyflakes  > pyflakes.log || :

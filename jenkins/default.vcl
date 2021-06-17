@@ -1,1 +1,0 @@
-include "/etc/varnish/projects.irrsinn.net.vcl";

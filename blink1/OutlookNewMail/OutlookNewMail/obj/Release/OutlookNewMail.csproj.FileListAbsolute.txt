@@ -1,5 +1,0 @@
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\bin\Release\OutlookNewMail.exe.config
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\bin\Release\OutlookNewMail.exe
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\bin\Release\OutlookNewMail.pdb
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\obj\Release\OutlookNewMail.exe
-D:\GitHub\furry-octo-sansa\blink1\OutlookNewMail\OutlookNewMail\obj\Release\OutlookNewMail.pdb
