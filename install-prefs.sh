@@ -4,4 +4,4 @@ cd `dirname $0`
 SCRIPT_DIR=`pwd`
 
 cd $HOME
-ln --symbolic --interactive $SCRIPT_DIR/vim/.vimrc
+ln --symbolic -f $SCRIPT_DIR/vim/.vimrc
